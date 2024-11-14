@@ -1,7 +1,182 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta http-equiv="refresh" content="0;url=https://sangeethnipun.cf">
-  <title> Redirecting  </title>
+
+    <meta charset="UTF-8">
+    <title>NipunSGeeTH </title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #000;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            overflow: hidden;
+        }
+
+        .loader-wrapper {
+            text-align: center;
+        }
+
+        .name-container {
+            margin-bottom: 30px;
+            perspective: 1000px;
+        }
+
+        .name {
+            font-size: 4em;
+            background: linear-gradient(45deg, 
+                #ff0000, #ff7300, #fffb00, #48ff00, 
+                #00ffd5, #002bff, #7a00ff, #ff00c8);
+            background-size: 300% 300%;
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            animation: rainbow 8s linear infinite;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            transform-style: preserve-3d;
+            animation: rainbow 8s linear infinite, bounce 2s ease-in-out infinite;
+        }
+
+        .loading-bar {
+            width: 300px;
+            height: 20px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 10px;
+            padding: 3px;
+            box-shadow: 0 0 10px rgba(255,255,255,0.2);
+        }
+
+        .progress {
+            width: 0%;
+            height: 100%;
+            background: linear-gradient(90deg, 
+                #ff0000, #ff7300, #fffb00, #48ff00, 
+                #00ffd5, #002bff, #7a00ff, #ff00c8);
+            background-size: 300% 100%;
+            border-radius: 7px;
+            animation: loading 3s ease-in-out infinite,
+                       rainbow-move 3s linear infinite;
+        }
+
+        .emojis {
+            font-size: 2em;
+            margin-top: 20px;
+            letter-spacing: 10px;
+            animation: dance 1s ease-in-out infinite;
+        }
+
+        .loading-text {
+            color: white;
+            font-size: 1.2em;
+            margin-top: 20px;
+            letter-spacing: 3px;
+            animation: pulse 1.5s ease-in-out infinite;
+        }
+
+        @keyframes rainbow {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        @keyframes rainbow-move {
+            0% { background-position: 0% 50%; }
+            100% { background-position: 100% 50%; }
+        }
+
+        @keyframes loading {
+            0% { width: 0%; }
+            50% { width: 100%; }
+            100% { width: 0%; }
+        }
+
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0) rotateX(0deg); }
+            50% { transform: translateY(-20px) rotateX(10deg); }
+        }
+
+        @keyframes dance {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+
+        .sparkles {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+        }
+
+        .sparkle {
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            background: white;
+            border-radius: 50%;
+            animation: sparkle-float 3s infinite linear;
+        }
+
+        @keyframes sparkle-float {
+            0% {
+                transform: translateY(100vh) scale(0);
+                opacity: 0;
+            }
+            50% {
+                opacity: 1;
+            }
+            100% {
+                transform: translateY(-100vh) scale(1);
+                opacity: 0;
+            }
+        }
+    </style>
 </head>
 <body>
-  Hi Hi everyone 
+    <div class="sparkles">
+        <!-- Sparkles will be added by JavaScript -->
+    </div>
+
+    <div class="loader-wrapper">
+        <div class="name-container">
+            <h1 class="name">NipunSGeeTH</h1>
+        </div>
+        <div class="loading-bar">
+            <div class="progress"></div>
+        </div>
+        <div class="loading-text">LOADING...</div>
+        <div class="emojis">
+            🌟 ✨ 💫 ⭐ 
+        </div>
+    </div>
+
+    <script>
+        // Create sparkles
+        const sparklesContainer = document.querySelector('.sparkles');
+        for (let i = 0; i < 30; i++) {
+            const sparkle = document.createElement('div');
+            sparkle.className = 'sparkle';
+            sparkle.style.left = Math.random() * 100 + '%';
+            sparkle.style.animationDelay = Math.random() * 3 + 's';
+            sparkle.style.opacity = Math.random();
+            sparklesContainer.appendChild(sparkle);
+        }
+    </script>
 </body>
+</html>
