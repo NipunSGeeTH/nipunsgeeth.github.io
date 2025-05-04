@@ -1,46 +1,48 @@
 [
-  {
-    "id": 1,
-    "title": "Algebra Basics",
-    "description": "Learn fundamental algebraic concepts including equations, variables, and solving linear equations with step-by-step examples.",
-    "url": "https://example.com/video1",
-    "subject": "methods-of-mathematics",
-    "author": "Dr. Sarah Mitchell",
-    "duration": "45:30",
-    "level": "Beginner",
-    "publishedAt": "2024-04-15",
-    "telegramDownload": "https://t.me/Zara_TBot/?start=MTIzNTkwMjYyNDMwMjM4Ni8zMzkzNTAw"
-  },
-  {
-    "id": 2,
-    "title": "Calculus Intro",
-    "description": "Introduction to differential calculus, covering limits, derivatives, and basic applications in real-world problems.",
-    "url": "https://example.com/video2",
-    "subject": "methods-of-mathematics",
-    "author": "Prof. Michael Chang",
-    "duration": "52:15",
-    "level": "Intermediate",
-    "publishedAt": "2024-04-18",
-    "telegramDownload": "https://t.me/Zara_TBot/?start=MTIzNTkwMjYyNDMwMjM4Ni8zMzkzNTAx"
-  },
+ {
+  "id": 1,
+  "title": "Day 01 (Resonance and Filters)",
+  "description": "Understand the concept of resonance in RLC circuits and explore how filters like low-pass, high-pass, band-pass, and band-stop work to shape electrical signals. Includes practical examples and theory breakdown.",
+  "url": "https://drive.google.com/file/d/1Wbb-uWmmHIZ4xeYJWScfxLgiThFLX9HS/view?usp=sharing",
+  "subject": "theory-of-electricity",
+  "author": "Teshan Kannangara",
+  "duration": "01:44:23",
+  "level": "Beginner",
+  "publishedAt": "2024-04-25",
+  "telegramDownload": "https://t.me/Zara_TBot/?start=MTIzNTkwMjYyNDMwMjM4Ni8zNDAwOTA0"
+},
+
+{
+  "id": 2,
+  "title": "Day 02 (Fundamental and Network Theorems)",
+  "description": "Dive into essential network theorems such as Ohm’s Law, Kirchhoff’s Laws, Thevenin’s and Norton’s Theorems. Learn how to simplify and analyze complex electrical circuits using these powerful tools.",
+  "url": "https://drive.google.com/file/d/17szT-pIwYNdCE8nEHL2VD2A8Vo5q7YIe/view?usp=drive_link",
+  "subject": "theory-of-electricity",
+  "author": "Kalana Lakshan",
+  "duration": "02:15:10",
+  "level": "Intermediate",
+  "publishedAt": "2024-05-02",
+  "telegramDownload": "https://t.me/Zara_TBot/?start=MTIzNTkwMjYyNDMwMjM4Ni8zNDAyMTM4"
+},
+
   {
     "id": 3,
-    "title": "Boolean Logic & Gates",
-    "description": "Introduction to digital logic, Boolean expressions, and implementation using logic gates.",
+    "title": "Numerical Kuppi day 01",
+    "description": "Numerical Kuppi day 01",
     "url": "https://example.com/video9",
-    "subject": "computer-organization-and-digital-design",
-    "author": "Dr. Alan Greene",
-    "duration": "41:20",
-    "level": "Beginner",
-    "publishedAt": "2024-05-01",
-    "telegramDownload": "https://t.me/Zara_TBot/?start=xyz09"
+    "subject": "methods-of-mathematics",
+    "author": "--",
+    "duration": "02:23:49",
+    "level": "Intermediate",
+    "publishedAt": "2024-03-30",
+    "telegramDownload": "https://t.me/Zara_TBot/?start=MTIzNTkwMjYyNDMwMjM4Ni8zNDAzMzcy"
   },
   {
     "id": 4,
     "title": "Programming with Functions",
     "description": "Learn the basics of program construction using functions and modular design.",
-    "url": "https://example.com/video10",
-    "subject": "program-construction",
+    "url": "/",
+    "subject": "methods-of-mathematics",
     "author": "Dr. Emily Stone",
     "duration": "37:50",
     "level": "Beginner",
