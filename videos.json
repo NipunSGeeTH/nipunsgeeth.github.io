@@ -39,14 +39,38 @@
   },
   {
     "id": 4,
-    "title": "Program Construction CSE Kuppi",
+    "title": "Probability and Statistics Kuppi 01",
     "description": "--",
-    "url": "https://www.youtube.com/watch?v=1OIcZmpFkVg",
-    "subject": "program-construction",
-    "author": "Suhas Dissanayake",
-    "duration": "01:47:25",
+    "url": "/",
+    "subject": "methods-of-mathematics",
+    "author": "Nirmal Bandara",
+    "duration": "03:32:19",
     "level": "Intermediate",
-    "publishedAt": "2025-03-27",
-    "telegramDownload": "/"
-  }
+    "publishedAt": "2025-04-22",
+    "telegramDownload": "https://t.me/Zara_TBot/?start=MTIzNTkwMjYyNDMwMjM4Ni8zNDA3MDc0"
+  },
+ {
+    "id": 5,
+    "title": "Multivariable Calculus Kuppi 01",
+    "description": "Covers the foundational concepts of Multivariable Calculus, including the transition from single-variable functions, real and vector-valued functions, curves, surfaces, and level sets.",
+    "url": "/",
+    "subject": "methods-of-mathematics",
+    "author": "Nipun Rathnayake",
+    "duration": "02:29:38",
+    "level": "Beginner",
+    "publishedAt": "2025-03-04",
+    "telegramDownload": "https://t.me/Zara_TBot/?start=MTIzNTkwMjYyNDMwMjM4Ni8zNDA4MzA4"
+},
+{
+  "id": 6,
+  "title": "Multivariable Calculus Kuppi 02",
+  "description": "Session 02 of the Multivariable Calculus Kuppi series. This session includes a tutorial segment to reinforce concepts from the first Kuppi and covers the fundamental topic of limits for multivariable functions, a crucial step towards exploring continuity.",
+  "url": "/",
+  "subject": "methods-of-mathematics",
+  "author": "Lasan Perera",
+  "duration": "01:31:53",
+  "level": "Beginner",
+  "publishedAt": "2025-03-05",
+  "telegramDownload": "https://t.me/Zara_TBot/?start=MTIzNTkwMjYyNDMwMjM4Ni8zNDA3074"
+}
 ]
