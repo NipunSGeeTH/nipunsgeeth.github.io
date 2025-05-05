@@ -89,14 +89,27 @@
 {
   "id": 8,
   "title": "Program Construction CSE Kuppi - March 27 2025",
-  "description": "OOP Concepts",
+  "description": "OOP Concepts an Memory Allocation, There are two videos, one is in youtube. other one download through Telegram",
   "url": "https://www.youtube.com/watch?v=1OIcZmpFkVg",
   "subject": "program-construction",
   "author": "Suhas Dissanayake",
   "duration": "01:47:24",
   "level": "Beginner",
   "publishedAt": "2025-03-27",
-  "telegramDownload": ""
+  "telegramDownload": "https://t.me/Zara_TBot?start=MTIzNTkwMjYyNDMwMjM4Ni8zNDc2MTc4"
+
+},
+ {
+  "id": 9,
+  "title": "COD Kuppi Done by senior batch- 2025:04:01",
+  "description": "--",
+  "url": "",
+  "subject": "data-structures-and-algorithms",
+  "author": "senior batch",
+  "duration": "03:07:57",
+  "level": "Beginner",
+  "publishedAt": "2025-04-01",
+  "telegramDownload": "https://t.me/Zara_TBot?start=MTIzNTkwMjYyNDMwMjM4Ni8zNDc4NjQ2"
 
 }
 ]
